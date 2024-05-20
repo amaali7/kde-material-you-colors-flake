@@ -26,7 +26,7 @@
         });};
       in
         pkgs.python3Packages.buildPythonPackage rec {
-          name = "getBook";
+          name = "kde-material-you-colors";
           src = ./.;
           propagatedBuildInputs = with pkgs.python3Packages; [
             libgenApi
