@@ -14,6 +14,7 @@
           pname = "kde-material-you-colors";
           version = "1.9.1";
           doCheck = false;
+          format = "pyproject";
           propagatedBuildInputs = with pkgs.python3Packages; [
             setuptools
             wheel
